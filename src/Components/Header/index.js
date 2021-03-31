@@ -6,7 +6,7 @@ const Header=(props)=>{
     const [openModal,setModalOpen]=useState(false)
     return(
         <div className="headerContainer">
-            <h1>Grocery App</h1>
+            <h1>Grocery Application</h1>
             <button  onClick={()=>{
                 document.getElementById("modalID").style.display="flex"
             }}>Basket</button>
