@@ -20,7 +20,7 @@ jobs:
     - name: Deploy to GH Pages
       run:
       git config --local user.email "aris.gani@gmail.com"
-      git config --local user.name "aris"
+      git config --local user.name "aris abdulgani"
 
        npm run deploy
       env:
