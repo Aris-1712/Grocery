@@ -10,3 +10,10 @@
     justify-content: space-evenly;
 
 }
+.itemContainer img {
+    height: 100px;
+}
+.itemContainer p{
+    font-weight: 600;
+    margin:0
+}

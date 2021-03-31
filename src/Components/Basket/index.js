@@ -12,7 +12,6 @@ const Basket = (props) => {
           transform             : 'translate(-50%, -50%)'
         }
       };
-      console.log(props.basket)
     return (
         <Modal
         style={customStyles}

@@ -1,0 +1,12 @@
+.headerContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 20px;
+}
+.headerContainer button {
+    float: right;
+    padding: 20px;
+    
+}
