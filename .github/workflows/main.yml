@@ -18,6 +18,10 @@ jobs:
     - name: Install Packages
       run: npm install
     - name: Deploy to GH Pages
-      run: npm run deploy
+      run:
+      git config  user.email "aris.gani@gmail.com"
+      git config  user.name "aris"
+
+       npm run deploy
       env:
           CI: false
