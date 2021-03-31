@@ -1,2 +1,3 @@
-git config user.name "aris abdulgani"
-git config user.email "aris.gani@gmail.com"
+[user]
+        name "aris abdulgani"
+        email "aris.gani@gmail.com"
