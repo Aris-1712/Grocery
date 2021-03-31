@@ -21,6 +21,5 @@ jobs:
       env:
           CI: false
       run:
-          git config -f
           npm run deploy
 
