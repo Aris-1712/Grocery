@@ -21,7 +21,5 @@ jobs:
       env:
           CI: false
       run:
-          git config user.email "aris.gani@gmail.com"
-          git config user.name "aris abdulgani"
           npm run deploy
       
